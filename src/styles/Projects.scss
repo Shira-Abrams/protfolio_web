@@ -1,0 +1,63 @@
+.projects {
+    padding: 40px 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #f39c12; /* Primary color for the header */
+    }
+  
+    .projects-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto; /* Center the column layout */
+    }
+  
+    .project-card {
+      background-color: #333;
+      border: 2px solid white; /* Secondary color for the border */
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.8rem;
+        color: #fff;
+      }
+  
+      p {
+        font-size: 1rem;
+        margin: 10px 0;
+        color: #ddd; /* Slightly lighter text color */
+      }
+  
+      .project-link {
+        display: inline-block;
+        margin-top: 10px;
+        color: white; /* Secondary color for the link text */
+        text-decoration: none;
+        border: 1px solid #f39c12; /* Secondary color for the border */
+        padding: 8px 16px;
+        border-radius: 20px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          background-color: black; /* Secondary color for the background on hover */
+          color: #fff; /* White text color on hover */
+        }
+      }
+  
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+  

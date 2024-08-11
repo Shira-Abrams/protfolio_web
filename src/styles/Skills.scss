@@ -1,0 +1,33 @@
+.skills-container {
+    padding: 50px;
+    background: #333;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    color: #f39c12;
+  }
+  
+  .skill-name {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f39c12;
+  }
+  
