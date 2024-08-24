@@ -1,44 +1,58 @@
-// src/styles/BlogList.scss
+@import './variables.scss';
 
 .blog-list-container {
-    padding: 20px;
-    border-radius: 8px;
-    color: #f39c12;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #222;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  color: #f39c12;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
   }
-  
-  .blog-list {
-    list-style: none;
-    padding: 0;
+}
+
+h3 {
+  margin: 0 0 15px;
+  color: #f39c12;
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 0 0 15px;
+  color: #ccc;
+  line-height: 1.6;
+  font-family: $font_family;
+
+}
+
+.expand-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    color: #e67e22;
   }
-  
-  .blog-item {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: #333;
-    border-radius: 5px;
-  }
-  
-  h3 {
-    margin: 0 0 10px;
-    color: #f39c12;
-  }
-  
-  p {
-    margin: 0 0 10px;
-    color: #ccc;
-  }
-  
-  .expand-button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  
-    &:hover {
-      color: #e67e22;
-    }
-  }
-  
+}

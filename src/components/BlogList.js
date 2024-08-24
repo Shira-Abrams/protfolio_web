@@ -12,7 +12,6 @@ const BlogList = () => {
 
   return (
     <div className="blog-list-container">
-      <h2>All Blogs</h2>
       <ul className="blog-list">
         {blogData.map((blog) => (
           <li key={blog.id} className="blog-item">

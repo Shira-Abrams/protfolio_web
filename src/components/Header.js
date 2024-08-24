@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <h1>Shira Abrams</h1>
-        <p>Full Stack Developer</p>
+        <h1 className="typing-animation">Shira Abrams</h1>
+        <p className="typing-animation" style={{ animationDelay: '2s' }}>Full Stack Developer</p>
       </div>
     </header>
   );

@@ -3,7 +3,6 @@ import '../styles/Skills.scss';
 import { FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact} from 'react-icons/fa';
 import { SiAngular, SiC, SiCplusplus, SiCsharp ,SiGit } from 'react-icons/si';
 import { DiJava } from 'react-icons/di';
-import { GiTBrick, GiTec9 } from 'react-icons/gi';
 
 const Skills = () => {
   return (

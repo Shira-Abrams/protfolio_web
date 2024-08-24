@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 footer {
     padding: 20px;
     background-color: #333;
@@ -6,7 +8,10 @@ footer {
   
     p {
       margin: 0;
-      font-size: 16px;
+      font-size: 16px; 
+       font-family: $font_family;
+
+
     }
   }
   

@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .skills-container {
     padding: 50px;
     background: #333;
@@ -8,6 +10,8 @@
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #f39c12;
+    font-family: $font_family;
+
   }
   
   .skills-list {
@@ -23,11 +27,15 @@
     align-items: center;
     font-size: 4rem;
     color: #f39c12;
+    &:hover{
+      color: white;
+    }
   }
   
   .skill-name {
     font-size: 1.2rem;
     margin-top: 10px;
     color: #f39c12;
+   
   }
   

@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .projects {
     padding: 40px 20px;
     background-color: black;
@@ -7,7 +9,10 @@
     h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
-      color: #f39c12; /* Primary color for the header */
+      color: #f39c12; /* Primary color for the header */  
+      font-family: $font_family;
+
+
     }
   
     .projects-column {
@@ -30,12 +35,16 @@
         margin: 0;
         font-size: 1.8rem;
         color: #fff;
+        font-family: $font_family;
+
       }
   
       p {
         font-size: 1rem;
         margin: 10px 0;
         color: #ddd; /* Slightly lighter text color */
+        font-family: $font_family;
+
       }
   
       .project-link {
@@ -47,6 +56,8 @@
         padding: 8px 16px;
         border-radius: 20px;
         transition: background-color 0.3s ease, color 0.3s ease;
+        font-family: $font_family;
+
   
         &:hover {
           background-color: black; /* Secondary color for the background on hover */
